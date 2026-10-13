@@ -12,7 +12,7 @@ const Footer = () => {
   </span>
 </div>
      <div className='flex gap-3 px-2 shrink-0 items-center'>
-      <a href="https://www.linkedin.com/in/raktim-bhuyan-9703582bb" className="hover:text-[#FFDF00] transition-colors"><FaLinkedin size={24}/></a>
+      <a href="https://www.linkedin.com/in/raktim-bhuyan-9703582bb" className="hover:text-[#FFDF00] transition-colors" target="_blank"><FaLinkedin size={24}/></a>
         <a
           href="https://github.com/Raktimbhuyan"
           target="_blank"
