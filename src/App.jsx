@@ -66,10 +66,10 @@ function App() {
   )
 
   return (
-     <div className="flex-1 min-h-dvh flex-col">
+     <div className="flex min-h-dvh flex-col">
       <Navbar />
       <hr className='w-full bg-[#FFDF00] h-0.5' />
-      <div className="bg-[url('/Op2.jpg')] h-auto w-full bg-cover bg-center pt-5 pb-5">
+      <div className="bg-[url('/Op2.jpg')] h-auto w-full bg-cover bg-center pt-5 pb-6">
         <div className="box mx-auto w-[92%] md:w-[80%] lg:w-[70%] bg-white/40 backdrop-blur-md rounded-2xl space-y-4 h-auto min-h-[70vh]">
           <div className="name font-['Rye'] text-center text-2xl sm:text-2xl md:text-3xl font-bold py-3 flex items-center gap-2 justify-center"><GiPirateFlag />Bounty List</div>
 
@@ -88,7 +88,7 @@ function App() {
             </div>
           </div>
 
-          <div className="flex flex-wrap gap-2 mx-3 sm:mx-7">
+          <div className="flex flex-wrap gap-2 mx-3 sm:mx-7 justify-center">
             {["all", "pending", "finished"].map(type => (
               <button
                 key={type}
@@ -129,7 +129,7 @@ function App() {
 })}
         </div>
       </div>
-      <hr className='w-full bg-[#FFDF00] h-0.5' />
+      <hr className='w-full bg-[#FFDF00] h-1' />
       <Footer />
      </div>
   )
