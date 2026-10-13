@@ -69,8 +69,8 @@ function App() {
      <div className="flex min-h-dvh flex-col">
       <Navbar />
       <hr className='w-full bg-[#FFDF00] h-0.5' />
-      <div className="bg-[url('/Op2.jpg')] h-auto w-full bg-cover bg-center pt-5 pb-6">
-        <div className="box mx-auto w-[92%] md:w-[80%] lg:w-[70%] bg-white/40 backdrop-blur-md rounded-2xl space-y-4 h-auto min-h-[70vh]">
+      <div className="flex flex-1 flex-col bg-[url('/Op2.jpg')] bg-cover bg-center bg-no-repeat px-3 py-5">
+        <div className="box mx-auto flex w-[92%] flex-1 flex-col space-y-4 rounded-2xl bg-white/40 pb-5 backdrop-blur-md md:w-[80%] lg:w-[70%]">
           <div className="name font-['Rye'] text-center text-2xl sm:text-2xl md:text-3xl font-bold py-3 flex items-center gap-2 justify-center"><GiPirateFlag />Bounty List</div>
 
           <div className='flex mx-3 sm:mx-7 sm:flex-row gap-3'>
@@ -129,7 +129,7 @@ function App() {
 })}
         </div>
       </div>
-      <hr className='w-full bg-[#FFDF00] h-1' />
+      <hr className='w-full bg-[#FFDF00] h-0.5' />
       <Footer />
      </div>
   )
