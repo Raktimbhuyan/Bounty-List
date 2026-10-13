@@ -8,7 +8,7 @@ const Footer = () => {
      <div className='flex gap-3 px-2'>
       <a href="mailto:raktimbhuyan001@gmail.com"  aria-label="Email"   className="hover:text-[#FFDF00] transition-colors"><MdEmail size={24}/></a>
         <a
-          href="https://www.linkedin.com/in/raktim-bhuyan-9703582bb/"
+          href="https://www.linkedin.com/in/your-profile/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
