@@ -66,7 +66,7 @@ function App() {
   )
 
   return (
-     <div className="flex min-h-dvh flex-col">
+     <div className="flex-1 min-h-dvh flex-col">
       <Navbar />
       <hr className='w-full bg-[#FFDF00] h-0.5' />
       <div className="bg-[url('/Op2.jpg')] h-auto w-full bg-cover bg-center pt-5 pb-5">
