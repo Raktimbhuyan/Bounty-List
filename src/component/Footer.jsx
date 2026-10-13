@@ -6,7 +6,7 @@ const Footer = () => {
   return ( 
   <footer className="mt-auto flex min-h-16 shrink-0 items-center justify-between gap-2 bg-black px-3 py-3 text-white">
      <div className="pmin-w-0 text-[10px] leading-tight sm:text-sm">
-  <span className="sm:hidden">© 2026 Bounty List</span>
+  <span className="sm:hidden">© -2026 Bounty List</span>
   <span className="hidden sm:inline">
     © 2026 My Bounty List · Built with ❤️ using React and Tailwind CSS
   </span>
